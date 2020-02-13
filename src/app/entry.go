@@ -1,7 +1,7 @@
 package main
 
 import (
-	"methods"
+	"concurrency/goroutines"
 )
 
 var integers [10]int
@@ -13,5 +13,5 @@ func init() {
 }
 
 func main() {
-	methods.NonStructs()
+	goroutines.Example2()
 }
