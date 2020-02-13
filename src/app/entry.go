@@ -13,5 +13,5 @@ func init() {
 }
 
 func main() {
-	methods.NestedStruct()
+	methods.NonStructs()
 }
