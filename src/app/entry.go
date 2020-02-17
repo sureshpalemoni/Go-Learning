@@ -1,7 +1,7 @@
 package main
 
 import (
-	"concurrency/goroutines"
+	"concurrency/channels"
 )
 
 var integers [10]int
@@ -13,5 +13,5 @@ func init() {
 }
 
 func main() {
-	goroutines.Example2()
+	channels.UnidrectionChannel()
 }
