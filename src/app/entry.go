@@ -1,17 +1,19 @@
 package main
 
 import (
-	"concurrency/channels"
+	"arrays"
 )
 
 var integers [10]int
 
+/*
 func init() {
 	for i :=0; i<10; i++ {
 		integers[i] = i
 	}
 }
+*/
 
 func main() {
-	channels.UnidrectionChannel()
+	arrays.MultiDimensional()
 }

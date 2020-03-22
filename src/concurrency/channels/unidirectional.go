@@ -2,7 +2,7 @@
 which means, we can send data to channel and read from it
 Go, provides unidirectional channels for example:
 roc := make(<-chan int) - Read only channel
-soc := make(chan<- int)	 - recive only channel
+soc := make(chan<- int)	 - sned only channel
 You may also convert a bi-directonal channel to unidirectional channel
 */
 
