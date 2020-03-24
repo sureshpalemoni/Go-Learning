@@ -1,7 +1,7 @@
 package main
 
 import (
-	"arrays"
+	"defpanrec"
 )
 
 var integers [10]int
@@ -15,5 +15,5 @@ func init() {
 */
 
 func main() {
-	arrays.MultiDimensional()
+	defpanrec.RecoverIntro()
 }
